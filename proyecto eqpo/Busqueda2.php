@@ -55,6 +55,28 @@
 		</div>
 	</header>
 	<!-- end header -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  
+<script type="text/javascript" src="gmaps.js"></script>
+  
+<script type="text/javascript">
+  
+$(document).ready(function(){
+  	
+var map= new GMaps({
+div: '#map',
+lat: 5.378671,
+ lng: 95.889027,
+ zoom: 15
+});
+</script>
+<div id="map" style="width:100%;height:500px;">
+</div>
+
+    <script src="js/jquery.js"></script>
+	<script src="js/custom.js"></script>
 		
     <script src="js/jquery.js"></script>
 	<script src="js/custom.js"></script>
